@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -G Ninja -S /home/john/11/myFolder/c/task_1 -B /home/john/11/myFolder/c/task_1/cmake-build-debug
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -G Ninja -S /home/john/11/c_plus_plus/c_plus_plus -B /home/john/11/c_plus_plus/c_plus_plus/cmake-build-debug
 -- The C compiler identification is GNU 12.2.0
 -- The CXX compiler identification is GNU 12.2.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/john/11/myFolder/c/task_1/cmake-build-debug
+-- Build files have been written to: /home/john/11/c_plus_plus/c_plus_plus/cmake-build-debug

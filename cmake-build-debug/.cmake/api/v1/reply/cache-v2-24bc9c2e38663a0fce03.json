@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/john/11/myFolder/c/task_1/cmake-build-debug"
+			"value" : "/home/john/11/c_plus_plus/c_plus_plus/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/john/11/myFolder/c/task_1/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/john/11/c_plus_plus/c_plus_plus/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -615,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/john/11/myFolder/c/task_1"
+			"value" : "/home/john/11/c_plus_plus/c_plus_plus"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1159,7 +1159,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/john/11/myFolder/c/task_1/cmake-build-debug"
+			"value" : "/home/john/11/c_plus_plus/c_plus_plus/cmake-build-debug"
 		},
 		{
 			"name" : "task_1_IS_TOP_LEVEL",
@@ -1183,7 +1183,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/john/11/myFolder/c/task_1"
+			"value" : "/home/john/11/c_plus_plus/c_plus_plus"
 		}
 	],
 	"kind" : "cache",

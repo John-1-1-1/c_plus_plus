@@ -1,4 +1,4 @@
-# Install script for directory: /home/john/11/myFolder/c/task_1
+# Install script for directory: /home/john/11/c_plus_plus/c_plus_plus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/john/11/myFolder/c/task_1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/john/11/c_plus_plus/c_plus_plus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

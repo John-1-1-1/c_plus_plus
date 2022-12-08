@@ -738,8 +738,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/john/11/myFolder/c/task_1/cmake-build-debug",
-		"source" : "/home/john/11/myFolder/c/task_1"
+		"build" : "/home/john/11/c_plus_plus/c_plus_plus/cmake-build-debug",
+		"source" : "/home/john/11/c_plus_plus/c_plus_plus"
 	},
 	"version" : 
 	{
