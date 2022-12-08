@@ -1,0 +1,8 @@
+/home/john/11/myFolder/c/task_1/cmake-build-debug/CMakeFiles/task_1_61_32.dir
+/home/john/11/myFolder/c/task_1/cmake-build-debug/CMakeFiles/lab_2_12.cpp.dir
+/home/john/11/myFolder/c/task_1/cmake-build-debug/CMakeFiles/AbstractFactory.cpp.dir
+/home/john/11/myFolder/c/task_1/cmake-build-debug/CMakeFiles/lll.cpp.dir
+/home/john/11/myFolder/c/task_1/cmake-build-debug/CMakeFiles/task_lection.cpp.dir
+/home/john/11/myFolder/c/task_1/cmake-build-debug/CMakeFiles/task__1.cpp.dir
+/home/john/11/myFolder/c/task_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/john/11/myFolder/c/task_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
