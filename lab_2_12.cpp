@@ -21,7 +21,7 @@ public:
         this->month = month;
     }
 
-    Date(){
+    Date(int a, int b, int c) {
 
     }
 
@@ -115,7 +115,7 @@ private:
 class Zodiac{
 
 public:
-    Zodiac() {
+    Zodiac() : DateBegin(0, 0, 0), DateEnd(0, 0, 0) {
 
     }
 
@@ -123,7 +123,7 @@ public:
     Date DateEnd;
     string Name;
 
-    Zodiac(Date& dateBegin,Date& dateEnd,string name) {
+    Zodiac(Date& dateBegin,Date& dateEnd,string name) : DateBegin(0, 0, 0), DateEnd(0, 0, 0) {
         DateBegin = dateBegin;
         DateEnd = dateEnd;
         Name = name;

@@ -20,3 +20,6 @@ add_executable(task_lection.cpp
 
 add_executable(task__1.cpp
         task__1.cpp)
+
+add_executable(lab3_12.cpp
+        lab3_12.cpp)
