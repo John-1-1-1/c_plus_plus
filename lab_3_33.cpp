@@ -148,16 +148,23 @@ public:
     }
 };
 
-class ListPerson{
-private:
-
+class Array{
 public:
-
     static const int size = 1000;
+    Person* listPerson[size] = {nullptr};
+
+    Person& operator[](const int index){
+        return *(this->listPerson[index]);
+    }
+};
+
+class ListPerson: Array{
+public:
     static const int size_z = 12;
     static Zodiac zodiac[size_z];
 
-    Person* listPerson[size] = {nullptr};
+    ListPerson() {
+    }
 
     bool Add(Person &person){
         int i;
@@ -288,9 +295,9 @@ public:
                     auto date = listPerson[index]->getDate();
                     for (int index_z = 0; index_z < ListPerson::size_z; index_z ++){
                         if (date.month == zodiac[index_z].DateEnd.month &&
-                        date.day <= zodiac[index_z].DateEnd.day
-                        || date.month == zodiac[index_z].DateBegin.month &&
-                        date.day >= zodiac[index_z].DateBegin.day){
+                            date.day <= zodiac[index_z].DateEnd.day
+                            || date.month == zodiac[index_z].DateBegin.month &&
+                               date.day >= zodiac[index_z].DateBegin.day){
                             return zodiac[index_z].Name;
                         }
                     }

@@ -10,7 +10,7 @@ add_executable(lab_2_12.cpp
         lab_2_12.cpp)
 
 add_executable(AbstractFactory.cpp
-        AbstractFactory.cpp lab_2_12.cpp)
+        AbstractFactory.cpp lab_2_12.cpp lab_3_33.cpp lab_3_33.cpp)
 
 add_executable(lll.cpp
         lll.cpp)
@@ -23,3 +23,9 @@ add_executable(task__1.cpp
 
 add_executable(lab3_12.cpp
         lab3_12.cpp)
+
+add_executable(lab3_33.cpp
+        lab_3_33.cpp)
+
+add_executable(lab4_12.cpp
+        lab_4_12.cpp)

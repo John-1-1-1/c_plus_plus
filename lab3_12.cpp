@@ -36,9 +36,7 @@ public:
     }
 
     bool operator!=(Triada triada){
-        return this->get_A() != triada.get_A() ||
-               this->get_B() != triada.get_B() ||
-               this->get_C() != triada.get_C();
+        return !operator==(triada);
     }
 
     bool operator>(Triada triada){
@@ -90,7 +88,8 @@ public:
     }
 
     bool operator==(Date date){
-        return (Triada)*this == (Triada)date;
+        //return *this == date;
+        return this->operator==(date);
     }
 
     bool operator!=(Date date){

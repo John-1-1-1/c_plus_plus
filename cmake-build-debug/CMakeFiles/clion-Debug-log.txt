@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -G Ninja -S /home/john/11/c_plus_plus/c_plus_plus -B /home/john/11/c_plus_plus/c_plus_plus/cmake-build-debug
+/snap/clion/218/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/218/bin/ninja/linux/ninja -G Ninja -S /home/john/myFolder/c_plus_plus -B /home/john/myFolder/c_plus_plus/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/john/11/c_plus_plus/c_plus_plus/cmake-build-debug
+-- Build files have been written to: /home/john/myFolder/c_plus_plus/cmake-build-debug
