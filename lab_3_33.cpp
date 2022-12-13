@@ -154,8 +154,10 @@ public:
     Person* listPerson[size] = {nullptr};
 
     Person& operator[](const int index){
-        return *(this->listPerson[index]);
+
+        return *(listPerson[index]);
     }
+
 };
 
 class ListPerson: Array{
@@ -195,10 +197,6 @@ public:
             }
         }
         return nullptr;
-    }
-
-    Person& operator[](const int index){
-        return *(this->listPerson[index]);
     }
 
     ListPerson Union(ListPerson& listPerson){
